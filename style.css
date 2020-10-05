@@ -5,6 +5,14 @@ body {
   margin: 0;
 }
 
+nav, main > section {
+  overflow: auto;
+}
+
+main > section {
+  min-height: 100vh;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -30,10 +38,26 @@ nav a {
   text-decoration: none;
 }
 
-nav, main > section {
-  overflow: auto;
+#nav {
+  background-color: #424b54;
 }
 
-main > section {
-  min-height: 100vh;
+#banner {
+  background-color: #B38D97;
+}
+
+#topic-1 {
+  background-color: #D5ACA9;
+}
+
+#topic-2 {
+  background-color: #EBCFB2;
+}
+
+#topic-3 {
+  background-color: #C5BAAF;
+}
+
+#contact {
+  background-color: #B3CBB9;
 }
