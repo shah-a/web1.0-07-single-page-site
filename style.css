@@ -11,7 +11,14 @@ nav {
   padding: 1em;
 }
 
-nav ul {
+nav > h1 {
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,4 +28,12 @@ nav ul {
 nav a {
   padding: 0 1em;
   text-decoration: none;
+}
+
+nav, main > section {
+  overflow: auto;
+}
+
+main > section {
+  min-height: 100vh;
 }
