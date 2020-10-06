@@ -3,3 +3,5 @@
 Written in: HTML, CSS
 
 Images from: [JL G](https://pixabay.com/users/ractapopulous-24766/)
+
+Texture from: [Henry & Co.](https://www.pexels.com/@hngstrm)

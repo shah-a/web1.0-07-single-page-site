@@ -92,6 +92,7 @@ nav ul a:hover {
 
 .card {
   width: 400px;
+  height: 60vh;
   margin: 1em;
   color: #eeeeee;
   border: solid 2px;
@@ -139,8 +140,40 @@ nav ul a:hover {
 
 #topic-3 {
   background-color: #C5BAAF;
+  background-image: url(img/texture.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+#topic-3 > div {
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  margin: auto;
+}
+
+#topic-3 h2 {
+  margin: 0 0 0.5em;
+  font-size: 2em;
+}
+
+#topic-3 > div > div:nth-child(1) {
+  flex: 3;
+  margin: 0 1em 0 0;
+  
+}
+
+#topic-3 > div > div:nth-child(2) {
+  flex: 2;
+}
+
+#topic-3 > div img {
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
 #contact {
-  background-color: #B3CBB9;
+  color: #eee;
+  background-color: #424b54;
 }
