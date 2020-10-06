@@ -126,7 +126,7 @@ nav ul a:hover {
 }
 
 #topic-2 > div {
-  color: #eee;
+  color: #eeeeee;
   text-shadow: 0 0 20px #424b54;
   background-color: rgba(255, 192, 203, 0.6);
   margin: 1em;
@@ -139,6 +139,10 @@ nav ul a:hover {
 #topic-2 h2 {
   margin: 0.5em;
   font-size: 4em;
+}
+
+#topic-2 p {
+  font-size: 1.5em;
 }
 
 #topic-3 {
@@ -157,14 +161,22 @@ nav ul a:hover {
 }
 
 #topic-3 h2 {
-  margin: 0 0 0.5em;
-  font-size: 2em;
+  color: #eeeeee;
+  font-size: 3em;
+  text-shadow: 0 0 20px #424b54;
+  margin: 1.5rem;
+}
+
+#topic-3 p {
+  color: #424b54;
+  font-size: 1.5em;
+  margin: 1.5rem;
 }
 
 #topic-3 > div > div:nth-child(1) {
   flex: 3;
   margin: 0 1em 0 0;
-  
+  background-color: rgba(238, 238, 238, 0.6);
 }
 
 #topic-3 > div > div:nth-child(2) {
