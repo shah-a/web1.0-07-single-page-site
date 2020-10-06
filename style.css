@@ -44,7 +44,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color: pink;
+  color: #eee;
 }
 
 #banner {
@@ -94,8 +94,9 @@ nav ul a:hover {
   width: 400px;
   margin: 1em;
   color: #eeeeee;
-  border: solid;
-  border-color: #B3CBB9;
+  border: solid 2px;
+  border-color: white;
+  box-shadow: 0 0 20px #B3CBB9;
 }
 
 .card img {
@@ -115,6 +116,25 @@ nav ul a:hover {
   background-image: url(img/topic-2.jpg);
   background-size: cover;
   background-position: 50% 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#topic-2 > div {
+  color: #eee;
+  text-shadow: 0 0 20px #424b54;
+  background-color: rgba(255, 192, 203, 0.6);
+  margin: 1em;
+  padding: 1em;
+  width: 35%;
+  max-width: 500px;
+  text-align: center;
+}
+
+#topic-2 h2 {
+  margin: 0.5em;
+  font-size: 4em;
 }
 
 #topic-3 {
