@@ -13,6 +13,10 @@ main > section {
   min-height: 100vh;
 }
 
+main > footer {
+  min-height: 40vh;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -95,8 +99,7 @@ nav ul a:hover {
   height: 60vh;
   margin: 1em;
   color: #eeeeee;
-  border: solid 2px;
-  border-color: white;
+  border: 2px solid #ffffff;
   box-shadow: 0 0 20px #B3CBB9;
 }
 
@@ -176,4 +179,52 @@ nav ul a:hover {
 #contact {
   color: #eee;
   background-color: #424b54;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact > form {
+  display: flex;
+}
+
+#contact > form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 0;
+}
+
+#contact span {
+  margin: 1em 0;
+}
+
+#contact input, #contact textarea {
+  border: 1px solid #000000;
+  padding: 0.5em;
+  width: 20em;
+  font-size: 1em;
+}
+
+#contact input {
+  margin: 0 2em 0 0;
+}
+
+#contact textarea {
+  height: 8em;
+}
+
+#contact button {
+  font-size: 1em;
+  margin: 1em 0;
+  align-self: flex-end;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
 }
