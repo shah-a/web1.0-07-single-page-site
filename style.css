@@ -1,3 +1,14 @@
+/* Colour palette: https://coolors.co/424b54-b38d97-d5aca9-ebcfb2-c5baaf-bcc3b4-b8c7b7-b3cbb9
+#424B54
+#B38D97
+#D5ACA9
+#EBCFB2
+#C5BAAF
+#BCC3B4
+#B8C7B7
+#B3CBB9
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body {
@@ -9,12 +20,16 @@ nav, main > section {
   overflow: auto;
 }
 
-main > section {
+html, body {
+  height: 100vh;
+}
+
+main > section, main > footer {
   min-height: 100vh;
 }
 
-main > footer {
-  min-height: 40vh;
+#banner, #topic-2, #contact {
+  background-attachment: fixed;
 }
 
 nav {
@@ -22,8 +37,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  color: #424b54;
-  background-color: #B3CBB9;
+  background-color: #424b54;
+  color: #B3CBB9;
 }
 
 nav > h1 {
@@ -43,12 +58,12 @@ nav > ul {
 nav ul a {
   padding: 0 1em;
   text-decoration: none;
-  color: #424b54;
+  color: #B3CBB9;
   transition: all 0.2s;
 }
 
 nav ul a:hover {
-  color: #eee;
+  color: #eeeeee;
 }
 
 #banner {
@@ -128,7 +143,7 @@ nav ul a:hover {
 #topic-2 > div {
   color: #eeeeee;
   text-shadow: 0 0 20px #424b54;
-  background-color: rgba(255, 192, 203, 0.6);
+  background-color: #ffc0cb99;
   margin: 1em;
   padding: 1em;
   width: 35%;
@@ -147,50 +162,74 @@ nav ul a:hover {
 
 #topic-3 {
   background-color: #C5BAAF;
-  background-image: url(img/texture.jpg);
+  /* background-image: url(img/texture.jpg); */
+}
+
+#topic-4 {
+  background-color: #BCC3B4;
+  /* background-image: url(img/texture.jpg); */
+}
+
+#topic-5 {
+  background-color: #B8C7B7;
+  /* background-image: url(img/texture.jpg); */
+}
+
+.alternate {
   background-size: cover;
   background-position: center;
   display: flex;
 }
 
-#topic-3 > div {
+.alternate > div {
   display: flex;
   justify-content: center;
   width: 75%;
   margin: auto;
 }
 
-#topic-3 h2 {
+.img-right > div {
+  flex-direction: row;
+}
+
+.img-left > div {
+  flex-direction: row-reverse;
+}
+
+.alternate h2 {
   color: #eeeeee;
   font-size: 3em;
   text-shadow: 0 0 20px #424b54;
   margin: 1.5rem;
 }
 
-#topic-3 p {
+.alternate p {
   color: #424b54;
   font-size: 1.5em;
   margin: 1.5rem;
 }
 
-#topic-3 > div > div:nth-child(1) {
-  flex: 3;
-  margin: 0 1em 0 0;
-  background-color: rgba(238, 238, 238, 0.6);
-}
-
-#topic-3 > div > div:nth-child(2) {
+.alternate > div > div:nth-child(1) {
   flex: 2;
+  margin: 0 0.5em;
+  background-color: #eeeeee99;
 }
 
-#topic-3 > div img {
+.alternate > div > div:nth-child(2) {
+  flex: 3;
+  margin: 0 0.5em;
+}
+
+.alternate > div img {
   width: 100%;
   box-shadow: 0 0 20px rgba(66,75,84, 0.6);
 }
 
 #contact {
+  background-color: #B3CBB9;
   color: #eeeeee;
-  background-color: #424b54;
+  background-image: url(img/texture.jpg);
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -199,6 +238,8 @@ nav ul a:hover {
 
 #contact > form {
   display: flex;
+  background-color: #424b5499;
+  padding: 0 10vw;
 }
 
 #contact > form > div {
@@ -217,7 +258,7 @@ nav ul a:hover {
 }
 
 #contact input, #contact textarea {
-  border: 1px solid #000000;
+  border: 1px solid #424b54;
   padding: 0.5em;
   width: 20em;
   font-size: 1em;
