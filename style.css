@@ -51,6 +51,7 @@ nav ul a:hover {
   background-color: #B38D97;
   background-image: url(img/banner.jpg);
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +66,7 @@ nav ul a:hover {
 
 #banner h2, #banner p {
   margin: 0;
-  color: #eee;
+  color: #eeeeee;
   text-shadow: 0 0 20px #424b54;
 }
 
@@ -73,10 +74,47 @@ nav ul a:hover {
   background-color: #D5ACA9;
 }
 
+#topic-1 ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+#topic-1 > h2 {
+  margin: 1em;
+  font-size: 3em;
+  color: #eeeeee;
+  text-align: center;
+}
+
+.card {
+  width: 400px;
+  margin: 1em;
+  color: #eeeeee;
+  border: solid;
+  border-color: #B3CBB9;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 2em;
+}
+
+.card h3, .card p {
+  margin: 1rem;
+}
+
 #topic-2 {
   background-color: #EBCFB2;
   background-image: url(img/topic-2.jpg);
   background-size: cover;
+  background-position: 50% 70%;
 }
 
 #topic-3 {
