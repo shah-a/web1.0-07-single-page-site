@@ -42,6 +42,7 @@ main > section, main > footer {
   background-image: url(img/texture-1.jpg);
   background-size: cover;
   background-position: center;
+  text-shadow: 0 0 20px #424b54;
 }
 
 #nav > h1 {
@@ -104,7 +105,7 @@ main > section, main > footer {
   display: flex;
   justify-content: center;
   list-style: none;
-  text-align: center;
+  /* text-align: center; */
   margin: 0;
   padding: 0;
 }
@@ -114,19 +115,23 @@ main > section, main > footer {
   font-size: 3em;
   color: #eeeeee;
   text-align: center;
+  text-shadow: 0 0 20px #424b54;
 }
 
 .card {
   width: 400px;
-  height: 60vh;
+  height: 600px;
   margin: 1em;
-  color: #eeeeee;
-  border: 2px solid #ffffff;
-  box-shadow: 0 0 20px #B3CBB9;
+  color: #424b54;
+  border: 1px solid #424b54;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card img {
   width: 100%;
+  border-bottom: 1px solid #424b54;
 }
 
 .card h3 {
@@ -135,6 +140,26 @@ main > section, main > footer {
 
 .card h3, .card p {
   margin: 1rem;
+}
+
+.card > div:nth-last-child(1) {
+  margin: 2em;
+  align-self: flex-end;
+}
+
+.card button {
+  font-size: 1em;
+  padding: 0.35em 1.2em;
+  color: #424b54;
+  background-color: transparent;
+  border: 1px solid #424b54;
+  border-radius: 0.2em;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card button:hover {
+  background-color: pink;
 }
 
 #topic-2 {
@@ -165,6 +190,7 @@ main > section, main > footer {
 
 #topic-2 p {
   font-size: 1.5em;
+  color: #424b54;
 }
 
 #topic-3 {
@@ -235,7 +261,7 @@ main > section, main > footer {
 
 .alternate > div img {
   width: 100%;
-  box-shadow: 0 0 20px rgba(66,75,84, 0.6);
+  box-shadow: 0 0 20px #424b5466;
 }
 
 #contact {
@@ -292,13 +318,12 @@ main > section, main > footer {
   padding: 0.35em 1.2em;
   color: #eeeeee;
   background-color: transparent;
-  border: 0.1em solid #B3CBB9;
+  border: 0.1em solid #eeeeee;
   border-radius: 0.2em;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 #contact button:hover {
-  color: #B3CBB9;
-  background-color: #eeeeee;
+  background-color: pink;
 }
