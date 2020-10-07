@@ -2,6 +2,9 @@
 
 Written in: HTML, CSS
 
-Images from: [JL G](https://pixabay.com/users/ractapopulous-24766/)
+Images from:<br>
+- [JL G](https://pixabay.com/users/ractapopulous-24766/)
 
-Texture from: [Henry & Co.](https://www.pexels.com/@hngstrm)
+Textures from:<br>
+- [MrsMary](https://pixabay.com/users/mrsmary-4022219/)
+- [Henry & Co.](https://www.pexels.com/@hngstrm)

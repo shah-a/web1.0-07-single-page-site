@@ -28,25 +28,28 @@ main > section, main > footer {
   min-height: 100vh;
 }
 
-#banner, #topic-2, #contact {
+.parallax {
   background-attachment: fixed;
 }
 
-nav {
+#nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
   background-color: #424b54;
-  color: #B3CBB9;
+  color: #eeeeee;
+  background-image: url(img/texture-1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-nav > h1 {
+#nav > h1 {
   margin: 0;
   padding: 0;
 }
 
-nav > ul {
+#nav > ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,15 +58,16 @@ nav > ul {
   padding: 0;
 }
 
-nav ul a {
+#nav ul a {
+  font-weight: 700;
   padding: 0 1em;
   text-decoration: none;
-  color: #B3CBB9;
+  color: #eeeeee;
   transition: all 0.2s;
 }
 
-nav ul a:hover {
-  color: #eeeeee;
+#nav ul a:hover {
+  color: pink;
 }
 
 #banner {
@@ -91,6 +95,9 @@ nav ul a:hover {
 
 #topic-1 {
   background-color: #D5ACA9;
+  background-image: url(img/texture-1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #topic-1 ul {
@@ -162,17 +169,23 @@ nav ul a:hover {
 
 #topic-3 {
   background-color: #C5BAAF;
-  /* background-image: url(img/texture.jpg); */
+  background-image: url(img/texture-2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #topic-4 {
   background-color: #BCC3B4;
-  /* background-image: url(img/texture.jpg); */
+  background-image: url(img/texture-3.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #topic-5 {
   background-color: #B8C7B7;
-  /* background-image: url(img/texture.jpg); */
+  background-image: url(img/texture-4.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .alternate {
@@ -228,7 +241,7 @@ nav ul a:hover {
 #contact {
   background-color: #B3CBB9;
   color: #eeeeee;
-  background-image: url(img/texture.jpg);
+  background-image: url(img/texture-5.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;
